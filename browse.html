@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Browse - Quill Vault</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+
+<body onload="renderStories()">
+
+<header>
+<h1>Quill Vault</h1>
+
+<nav>
+<a href="post.html">Post Story</a>
+<a href="login.html">Account</a>
+</nav>
+</header>
+
+<input id="search" placeholder="Search stories..." oninput="renderStories()">
+
+<div id="storyList"></div>
+
+</body>
+</html>
