@@ -1,0 +1,54 @@
+body{
+font-family: Georgia, serif;
+background:#f6f6f6;
+color:#222;
+margin:0;
+padding:20px;
+}
+
+header{
+border-bottom:2px solid #ccc;
+margin-bottom:20px;
+}
+
+nav a{
+margin-right:15px;
+text-decoration:none;
+color:#900;
+}
+
+h1{
+color:#900;
+}
+
+.button{
+display:inline-block;
+padding:10px 16px;
+background:#900;
+color:white;
+text-decoration:none;
+margin:5px;
+}
+
+input, textarea{
+width:100%;
+padding:8px;
+margin-bottom:10px;
+}
+
+.story{
+background:white;
+border:1px solid #ccc;
+padding:15px;
+margin-bottom:15px;
+}
+
+.tags{
+font-size:14px;
+color:#555;
+}
+
+.center{
+text-align:center;
+margin-top:120px;
+}
